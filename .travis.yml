@@ -3,4 +3,5 @@ script:
   - firebase deploy
 
 before_install:
-  - npm install firebase-tools
+  - npm install firebase
+  - npm install -g firebase-tools
